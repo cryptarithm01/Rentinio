@@ -1,0 +1,10 @@
+# Redirect to front controller
+RewriteEngine On
+# RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+ # if we encounter these files/folders skip rule
+ RewriteCond $1 !^(config|css|images|js|scripts|templates\.txt)
+
+RewriteRule ^ index.php [QSA,L]

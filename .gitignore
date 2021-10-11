@@ -1,0 +1,7 @@
+vendor/
+Loader/
+backup/
+scripts/
+documentation/
+config/
+composer.lock

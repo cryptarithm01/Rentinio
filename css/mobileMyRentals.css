@@ -1,0 +1,28 @@
+@media (max-width: 700px) {
+  
+  #showcase .showcase-content .table-container{
+    overflow: scroll;
+  }
+  #showcase .showcase-content .table-container table thead{
+    /* display: none; */
+    display: block;
+    width: 100%;
+  }
+
+  #showcase .showcase-content table, table tbody, table tr, table td{
+    display: block;
+    /* overflow: scroll; */
+  }
+
+  #showcase .showcase-content table tr{
+    border: none;
+    border-bottom: solid 2px #f4f4f4;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  
+}
